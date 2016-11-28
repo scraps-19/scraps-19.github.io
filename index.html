@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Scraps</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="css/landing.css" type="text/css">
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+    <link rel="apple-touch-icon" href="img/homescreen-icon.png">
+</head>
+<body unresolved>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row"></div>
+    </header>
+    <main class="mdl-layout__content">
+        <div id="page-content">
+            <div class="hero-title">
+                <span>
+                    Scraps
+                </span>
+            </div>
+            <div class="hero-button-container">
+                <button id="hero-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </main>
+</div>
+<script>
+    document.getElementById("hero-button").onclick = function() {
+        window.location = "home";
+    };
+</script>
+</body>
+</html>
